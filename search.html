@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="./styles/search-bg.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="icon" href="./images/wcu-icon.png">
+    <title>WCU | Login</title>
+</head>
+
+<body class="flex flex-col justify-between bg-slate-500 min-h-screen ">
+
+    <header class="bg-black h-20 bg-opacity-35 flex justify-between text-slate-50 absolute w-full z-10">
+
+        <!-- LOGO -->
+        <div class="pl-10 w-4/12 flex items-center justify-start gap-5 h-full">
+            <img src="images/wcu_logo.jpeg" alt="WCU Logo" class="w-14 h-14 rounded-full">
+            <p class="text-2xl">Wachemo<br>University</p>
+        </div>
+
+        <!-- NAV LINKS -->
+        <div class="w-8/12 h-full flex items-center justify-end pr-10">
+            <nav class="flex justify-evenly items-center gap-10">
+                <div class="flex flex-col justify-center">
+                    <img src="images/house-solid - lightblue.svg" alt="home_icon" class="w-6 h-6 mx-auto">
+                    <p class="text-center" style="color: lightblue">Home</p>
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/people-group-solid.svg" alt="home_icon" class="w-6 h-6 mx-auto">
+                    <p class="text-center">About WCU</p>
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/building-columns-solid.svg" alt="home_icon" class="w-6 h-6 mx-auto">
+                    <p class="text-center">Campus</p>
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/bullhorn-solid.svg" alt="home_icon" class="w-6 h-6 mx-auto">
+                    <p class="text-center">Announcements</p>
+                </div>
+                <a class="flex flex-col" href="login.html">
+                    <img src="images/globe-solid.svg" alt="home_icon" class="w-6 h-6 mx-auto">
+                    <div class="flex gap-1">
+                        <p class="text-center inline">AMH &nbsp; 🇪🇹</p>
+                        <img src="images/down.svg" alt="" class="w-5 h-5">
+                    </div>
+                </a>
+                <div class="flex flex-col">
+                    <img src="images/user-solid.svg" alt="home_icon" class="w-6 h-6 mx-auto">
+                    <p class="text-center">Sign-in</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="flex flex-col justify-center items-center h-screen ">
+
+        <!-- MAIN AREA -->
+        <div class="px-7 py-16 flex w-10/12 justify-center items-center">
+
+            <!-- fields -->
+            <div class="w-9/12">
+                
+
+                <!-- inputs -->
+                <div class="flex flex-col items-center space-y-4">
+                    <h2 class="text-[32px] font-semibold">Search in WCU IR</h2>
+                    <div class="flex flex-col gap-3">
+                        <div class="relative">
+                            <img src="./images/search-svgrepo-com 1.png" alt="" class="absolute bottom-1.5 left-0.5">
+                            <label for="" class="text-base font-medium">what are you looking for? (You can search by  title, author, publisher, advisor,, college, department etc)</label><br>
+                            <div class="flex gap-3">
+                                <input type="text" name="" id="" placeholder="Key words" class="pl-8 w-72 rounded-lg">
+                                <div class="px-5 py-1.5 bg-gradient-to-r from-red-400 via-indigo-800 to-fuchsia-600 rounded-xl border-2 border-gray-200 justify-center items-center flex">
+                                    <button class="text-center text-black ">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Advanced search -->
+                        <div class="flex gap-3" id="advancedSearchToggle">
+                            <p class="text-[23.04px] font-semibold">Advanced Search</p>
+                            <img src="./images/dropdown-arrow-svgrepo-com 3.png" alt="" id="dropDown" class="-rotate-180">
+                            
+                        </div>
+
+                        <!-- options of Advanced search -->
+                        <div class="space-y-3 hidden" id="advancedSearchOptions">
+                            <div class="space-x-4">
+                                <label for="" class="pl-3">Category</label><br>
+                                <select id="" name="" class="w-36 px-2 py-1 rounded-lg border border-cyan-800">
+                                    <option value="">Department</option>
+                                    <option value="">College</option>
+                                    <option value="">Issue Year</option>
+                                </select>
+                            </div>
+                            <div class="space-x-4">
+                                <label for="" class="pl-3">Sub-Category: </label><br>
+                                <select id="" name="" class="w-72 px-2 py-1 rounded-lg border border-cyan-800">
+                                    <option selected="selected" value="Department of Accounting &amp; Finance">Department of Accounting &amp; Finance</option>
+                                    <option value="Department of Anesthesia">Department of Anesthesia</option>
+                                    <option value="Department Of Animal Science">Department Of Animal Science</option>
+                                    <option value="Department of Architecture">Department of Architecture<div></div></option>
+                                    <option value="Department of Bio-technology">Department of Bio-technology</option>
+                                    <option value="Department of Biology">Department of Biology</option>
+                                    <option value="Department of Biomedical Sciences">Department of Biomedical Sciences</option>
+                                    <option value="Department of Chemical Engineering">Department of Chemical Engineering</option>
+                                    <option value="Department of Chemistry">Department of Chemistry</option>
+                                    <option value="Department of Civics and Ethical Studies">Department of Civics and Ethical Studies</option>
+                                    <option value="Department of Comprehensive Nursing">Department of Comprehensive Nursing</option>
+                                    <option value="Department of Computer Science">Department of Computer Science</option>
+                                    <option value="Department of Construction Engineering">Department of Construction Engineering</option>
+                                    <option value="Department of Economics">Department of Economics</option>
+                                    <option value="Department of Electrical &amp; Computer Engineering">Department of Electrical &amp; Computer Engineering</option>
+                                    <option value="Department of Electromechanical Engineering">Department of Electromechanical Engineering</option>
+                                    <option value="Department of English Language and Literature">Department of English Language and Literature</option>
+                                    <option value="Department of Environmental Science">Department of Environmental Science</option>
+                                    <option value="Department of Food Science and Post-Harvesting Technology">Department of Food Science and Post-Harvesting Technology</option>
+                                    <option value="Department of Geography and Environmental Studies">Department of Geography and Environmental Studies</option>
+                                    <option value="Department of Geology">Department of Geology</option>
+                                    <option value="Department of Geomatics Engineering">Department of Geomatics Engineering</option>
+                                    <option value="Department of Hadiyisa Language and Literature">Department of Hadiyisa Language and Literature</option>
+                                    <option value="Department of History and Heritage Management">Department of History and Heritage Management</option>
+                                    <option value="Department of Horticulture">Department of Horticulture</option>
+                                    <option value="Department of Hydraulic Engineering">Department of Hydraulic Engineering</option>
+                                    <option value="Department of Information System">Department of Information System</option>
+                                    <option value="Department of Information Technology">Department of Information Technology</option>
+                                    <option value="Department of Management">Department of Management</option>
+                                    <option value="Department of Marketing Management">Department of Marketing Management</option>
+                                    <option value="Department of Mathematics">Department of Mathematics</option>
+                                    <option value="Department of Mechanical Engineering">Department of Mechanical Engineering</option>
+                                    <option value="Department of Medical laboratory Science">Department of Medical laboratory Science</option>
+                                    <option value="Department of Midwifery">Department of Midwifery</option>
+                                    <option value="Department of Natural Resource Management">Department of Natural Resource Management</option>
+                                    <option value="Department of Pediatric Nursing">Department of Pediatric Nursing</option>
+                                    <option value="Department of Pharmacy">Department of Pharmacy</option>
+                                    <option value="Department of Physics">Department of Physics</option>
+                                    <option value="Department of Plant Science">Department of Plant Science</option>
+                                    <option value="Department of Psychology">Department of Psychology</option>
+                                    <option value="Department of Public Health">Department of Public Health</option>
+                                    <option value="Department of Sociology">Department of Sociology</option>
+                                    <option value="Department of Software Engineering">Department of Software Engineering</option>
+                                    <option value="Department of Soil Science">Department of Soil Science</option>
+                                    <option value="Department of Sport Science">Department of Sport Science</option>
+                                    <option value="Department of Statistics">Department of Statistics</option>
+                                    <option value="Department of Surgical Nursing">Department of Surgical Nursing</option>
+                                    <option value="Department of Tourism Management">Department of Tourism Management</option>
+
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- vr -->
+            <div class="border border-black h-full mx-10"></div>
+
+            <!-- links -->
+            <div
+                class="bg-[#D9D9D9] bg-opacity-45 flex flex-col rounded-lg shadow-[3px_3px_3px_1px] shadow-[#888888] h-min">
+                <h2 class="text-xl text-center mt-5 mb-2 font-semibold">WCU International Repository</h2>
+                <div class="flex flex-col pl-5 gap-1 text-blue-800 text-center mb-3">
+                    <a href="" class="hover:underline hover:underline-offset-2">IR Home</a>
+                    <a href="" class="hover:underline hover:underline-offset-2">Search Papers</a>
+                    <a href="" class="hover:underline hover:underline-offset-2">External Important Links</a>
+                    <a href="" class="hover:underline hover:underline-offset-2">Quick Link</a>
+                    <a href="" class="hover:underline hover:underline-offset-2">Contact Us</a>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer class="bg-black py-2 absolute bottom-0 w-full bg-opacity-75">
+
+        <p class="text-slate-50 text-lg text-center">Copyright &copy; Wachemo University - WCU ICT
+            Directorate</p>
+
+    </footer>
+
+    <script src="./js/searchDropDown.js"></script>
+</body>
+
+</html>
