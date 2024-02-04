@@ -832,6 +832,10 @@ video {
   width: 1.75rem;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .min-w-\[335px\] {
   min-width: 335px;
 }
@@ -1342,6 +1346,18 @@ video {
     width: max-content;
   }
 
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .md\:w-9\/12 {
+    width: 75%;
+  }
+
+  .md\:w-10\/12 {
+    width: 83.333333%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1358,5 +1374,11 @@ video {
   .md\:text-slate-50 {
     --tw-text-opacity: 1;
     color: rgb(248 250 252 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-9\/12 {
+    width: 75%;
   }
 }
