@@ -1,0 +1,15 @@
+.loginBtn {
+    background: linear-gradient(105.42deg,
+            rgba(255, 98, 98, 0.65) 4.28%,
+            rgba(65, 69, 168, 0.40623) 17.15%,
+            rgba(220, 0, 106, 0.250571) 39.04%,
+            rgba(175, 40, 222, 0.121597) 63.39%,
+            rgba(13, 8, 15, 0.07475) 80.06%,
+            rgba(176, 74, 192, 0) 96.53%);
+    border: 2.16px solid #E9E9E9;
+    border-radius: 11.52px;
+}
+
+.loginBtn:hover {
+    background-color: gray;
+}

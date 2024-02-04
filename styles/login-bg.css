@@ -1,0 +1,7 @@
+main {
+    background-image: url('../images/');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-size: cover;
+}
