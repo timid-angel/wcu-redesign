@@ -1,0 +1,17 @@
+/* .new::before {
+    content: "*";
+    color: lightgray;
+    text-decoration: none !important;
+} */
+
+.new>span:first-child:before {
+    content: "*";
+}
+
+
+.notNew::before {
+    content: "*";
+    color: lightgray;
+    text-decoration: none !important;
+    opacity: 0;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./styles/input.css -o ./styles/output.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
